@@ -1,6 +1,6 @@
 # The Annotated Vision Transformer
 
-A line-by-line, runnable walkthrough of the Vision Transformer ([Dosovitskiy et al., 2020](https://arxiv.org/abs/2010.11929)), in the style of [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html).
+An annotated PyTorch implementation of the Vision Transformer ([Dosovitskiy et al., 2020](https://arxiv.org/abs/2010.11929)), in the style of [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html).
 
 It covers patch and positional embeddings, the CLS token, the encoder block, and the training setup, then trains a small ViT on MNIST on CPU, fine-tunes it on Fashion-MNIST, and inspects what it learned.
 
