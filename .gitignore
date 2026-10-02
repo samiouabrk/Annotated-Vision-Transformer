@@ -1,0 +1,20 @@
+# Not published
+tex/
+*.pdf
+
+# Datasets (auto-downloaded by torchvision)
+data/
+
+# Model weights
+*.pth
+*.pt
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# Editor / OS
+.vscode/
+.DS_Store
+*:Zone.Identifier
